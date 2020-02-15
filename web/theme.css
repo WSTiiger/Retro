@@ -1,0 +1,33 @@
+::-webkit-scrollbar { width: 8px;height: 8px;position:fixed;box-shadow: 0 0 4px rgba(0,0,0,0.5); }
+::-webkit-scrollbar-track-piece { background:#333333; }
+::-webkit-scrollbar-thumb { background:rgba(255,255,255,0.7);border-radius:2px; }
+::-webkit-scrollbar-thumb:hover { background:rgba(255,255,255,0.6) }
+body { margin: 0;padding: 0;font-size: 14px;font-family: 'Roboto', sans-serif;background: url('bg.png');background-attachment: fixed;color: #555; }
+.content { margin-left: auto;margin-right: auto;width: 1000px; }
+header { height: 115px;background: url('header.png'); }
+header .logo { position: relative;float: left;margin-top: 22px;margin-left: 5px; }
+header .information { position: relative;float: right;background: white;padding: 10px;border-bottom-right-radius: 3px;border-bottom-left-radius: 3px;margin-right: 5px;box-shadow: 0px 0px 1px rgba(0,0,0,0.43); }
+.nav { height: 58px;width: 100%;background: white;box-shadow: 0px 0px 2px rgba(0,0,0,0.43); }
+.nav ul { list-style: none;font-size: 17px;font-family: 'segoe ui';position: absolute;margin-left: -35px;margin-top: 0px; }
+.nav ul li { display: inline-block;padding: 18px;margin-right: -5px;text-decoration: none;color: #555;-webkit-transition: all 0.3s;transition: all 0.3s; }
+.nav ul li:hover { background: #f3f3f3; }
+.nav ul li.current { background: #f3f3f3; }
+.nav .enter { float: right;padding: 9px;background: #019201;margin-right: 5px;text-align: center;border-radius: 3px;margin-top: 9px;border: 2px solid #148a14;color: white; }
+.nav .disconnect { float: right;background: #d01f1f;text-align: center;border-radius: 3px;margin-top: 9px;border: 1px solid #c51010;color: white;width: 36.5px;font-size: 19px;height: 36.5px;line-height: 36.5px;margin-right: 5px; }
+.content .pare { margin-left: 5px;margin-right: 5px;padding: 10px;background: white;margin-top: 10px;border-radius: 3px;box-shadow: 0px 0px 1px rgba(0,0,0,0.43);float: left; }
+.content .pare.cent { width: 970px; }
+.content .pare.cinquante { width: 470px; }
+.content .pare.vingtcinq { width: 303.3px; }
+.content .pare.soixantequinze { width: 636.7px; }
+.content .pare .title { background: transparent;font-family: segoe ui;text-transform: uppercase;padding: 5px;border-bottom: 1px solid #dedede;margin-bottom: 5px;margin-left: 10px;margin-right: 10px;letter-spacing: 2px; }
+footer { margin-left: 5px;margin-right: 5px;padding: 10px;background: white;clear: both;margin-top: 10px;width: 970px;border-radius: 3px;box-shadow: 0px 0px 1px rgba(0,0,0,0.43); }
+.loginbtn { -webkit-transition: all 0.3s;transition: all 0.3s;cursor:pointer;width: 282px;margin-left: 10px;margin-top: 5px;margin-bottom: 5px;height: 34px;padding: 3px 10px;font-size: 14px;line-height: 1.42857143;color: #555;background-color: #fff;background-image: none;border: 1px solid #ccc;border-radius: 4px; }
+.loginbtn:hover { background: #019201;color:white; }
+.regbtn { -webkit-transition: all 0.3s;transition: all 0.3s;cursor:pointer;width: 282px;margin-left: 10px;margin-top: 5px;margin-bottom: 5px;height: 34px;padding: 3px 10px;font-size: 14px;line-height: 1.42857143;color: #555;background-color: #fff;background-image: none;border: 1px solid #ccc;border-radius: 4px; }
+.regbtn:hover { background: #d01f1f;color:white; }
+.icon-chevron-left { display: block;cursor: pointer;position: relative;z-index: 10;left: 10px;top: -48px;float: left;line-height: 0px;border-radius: 3px;text-align: center;color: #fff;font-size: 40px;width: 40px;background: rgba(0,0,0,0.3);height: 40px; }
+.icon-chevron-left:before { font: normal normal normal 14px/1 'Material-Design-Iconic-Font';font-size: 40px;content: '\f2fa'; }
+.icon-chevron-right { display: block;cursor: pointer;position: relative;z-index: 10;left: 20px;top: -47px;float: left;line-height: 0px;border-radius: 3px;text-align: center;color: #fff;font-size: 40px;width: 40px;background: rgba(0,0,0,0.3);height: 40px; }
+.icon-chevron-right:before { font: normal normal normal 14px/1 'Material-Design-Iconic-Font';font-size: 40px;content: '\f2fb'; }
+.slidesjs-pagination { display: none; }
+a { text-decoration: none; color:grey; }

@@ -1,0 +1,10 @@
+RewriteEngine on
+
+DirectoryIndex connexion.php
+ErrorDocument 404 /erreur.php
+
+RewriteRule ^articles/([^/]+) articles.php?article=$1
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(([A-Za-z0-9\-_]+/)*[A-Za-z0-9\-_]+)?$ $1.php

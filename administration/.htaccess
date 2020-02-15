@@ -1,0 +1,9 @@
+RewriteEngine on
+
+DirectoryIndex index.php
+
+RewriteRule ^modifications_joueur/([^/]+) modifications_joueur.php?pseudo=$1
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(([A-Za-z0-9\-_]+/)*[A-Za-z0-9\-_]+)?$ $1.php
